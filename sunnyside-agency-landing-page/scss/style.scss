@@ -1,0 +1,348 @@
+@import "config";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+  
+img {
+    width: 100%;
+}
+  
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: $font-2;
+    font-weight: 700;
+}
+
+
+//nav-section
+header {
+    background-color: $blue;
+    display: flex;
+    height: 2.25rem;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    .logo {
+        padding: 0.5rem;
+
+        
+    }
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+
+        .bar1, .bar2, .bar3 {
+            width: 2rem;
+            height: 0.2rem;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+    }
+    
+    .navbar {
+        visibility: hidden;
+        position: absolute;
+        top: 2.25rem;
+        background-color: white;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 0;
+        transform: translateY(-300px);
+        transition: transform 0.6s ease-out, height 1.25s ease-out, visibility 2s;
+        height: 0;
+
+        a {
+            padding: 5px;
+            color: $silver;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav-button {
+            border-radius: 3rem;
+            width: fit-content;
+            padding: 5px 10px;
+            background-color: $Yellow;
+            color: black;
+            margin: 10px auto;
+        }
+    }
+
+    .navbar.active {
+        transform: translateY(0px);
+        transition: transform 1s ease-out, height 0.2s ease-out, visibility 2s;
+        visibility: visible;
+        height: calc(210px);
+    }
+    
+}
+
+
+
+//profile section
+.profile {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $blue url(../images/mobile/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    h1 {
+        font-family: $font-2;
+        color: white;
+        margin-top: 6rem;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .img-arrow {
+        height: 5.5rem;
+        width: 2rem;
+    }
+}
+
+%section1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+%h2 {
+    color: $text-dark;
+    text-align: center;
+    margin: 10px;
+}
+
+%p {
+    color: $text-dark-30;
+    text-align: center;
+    margin: 10px;
+}
+
+%span {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.transform {
+    @extend %section1;
+    div {
+        padding: 10px; 
+    }
+
+    &-desc {
+        grid-area: 2;
+
+        h2 {
+            @extend %h2;
+        }
+
+        p {
+            @extend %p;
+        }
+        
+        span {
+            @extend %span;
+        }
+    }
+
+    &-img {
+        background: white url(../images/mobile/image-transform.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+        grid-area: 1;
+    }
+}
+
+.standout {
+    @extend %section1;
+    div {
+        padding: 10px; 
+    }
+
+    &-desc {
+        grid-area: 2;
+
+        h2 {
+            @extend %h2;
+        }
+
+        p {
+            @extend %p;
+        }
+        
+        span {
+            @extend %span;
+        }
+    }
+
+    &-img {
+        background: white url(../images/mobile/image-stand-out.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+        grid-area: 1;
+    }
+}
+
+.graphic {
+    background: #9CDCCC url(../images/mobile/image-graphic-design.jpg);
+    height: 90%;
+    background-size: cover;
+    background-position: top;
+    padding: 10px;
+    
+    h2 {
+        color: $Dark-desaturated-cyan;
+        padding-top: 20rem;
+        margin: 0 10px 10px;
+        text-align: center;
+    }
+
+    p {
+        color: $Dark-desaturated-cyan-0;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.photography {
+    background: #9CDCCC url(../images/mobile/image-photography.jpg);
+    height: 90%;
+    background-size: cover;
+    background-position: top;
+    padding: 10px;
+
+    h2 {
+        color: $Dark-blue;
+        padding-top: 20rem;
+        margin: 0 10px 10px;
+        text-align: center;
+    }
+
+    p {
+        color: $Dark-blue-0;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.testimonial {
+    padding: 40px 10px 10px;
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: $silver;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    div {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            width: 4rem;
+        }
+
+        p {
+            text-align: center;
+            color: #514d58;
+            padding: 20px 0;
+        }
+        
+        strong {
+            font-family: $font-2;
+            font-weight: 900;
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        span {
+            color: #CBC9CA;
+            font-size: 16px;
+        }
+
+    }
+}
+
+figure {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+footer {
+    padding: 30px 10px;
+    background: #90D4C5;
+
+    div {
+        padding: 20px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        
+        img {
+            width: 10rem;
+        }
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            color: #5CA393;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 1.25rem;
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+@import "navbtn";
+@import "attribution";
+@import "desktop";
