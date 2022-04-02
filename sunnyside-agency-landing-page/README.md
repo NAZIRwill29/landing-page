@@ -19,7 +19,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/NAZIRwill29/intro-component-with-signup-form)
+- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/sunnyside-agency-landing-page)
 - Live Site URL: [Sunnyside agency landing page challenge - Netlify](https://intro-component-with-signup-form-mdnazir.netlify.app/)
 
 ## My process
