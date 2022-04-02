@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page challenge solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-intro-component-with-signup-form-IkHEh_1as). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-sass-SJ6JwLBm5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ### Links
 
 - Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/sunnyside-agency-landing-page)
-- Live Site URL: [Sunnyside agency landing page challenge - Netlify](https://intro-component-with-signup-form-mdnazir.netlify.app/)
+- Live Site URL: [Sunnyside agency landing page challenge - Netlify](https://landing-page-mdnazir.netlify.app/sunnyside-agency-landing-page/index.html)
 
 ## My process
 
