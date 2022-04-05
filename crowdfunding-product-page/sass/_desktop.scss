@@ -1,0 +1,164 @@
+@media (min-width: 768px) {
+  header {
+    .head {
+      padding: 2rem 3rem 1.5rem 6rem;
+      height: fit-content;
+      .container {
+        display: none;
+      }
+
+      .navbar {
+        visibility: visible;
+        position: static;
+        height: fit-content;
+        transform: translateY(0);
+        margin-left: auto;
+
+        div {
+          width: fit-content;
+          flex-direction: row;
+          background-color: rgba(245, 222, 179, 0);
+
+          a {
+            color: white;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    .promo {
+      margin-top: -5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .logo {
+        width: 60px;
+        margin-top: -60px;
+      }
+
+      h1 {
+        margin: 20px 30px;
+        text-align: center;
+        line-height: 1.8rem;
+      }
+
+      p {
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .book {
+        .bookmark {
+          background-color: $Neutral-G;
+          opacity: 0.8;
+          transition: background-color 0.7s ease;
+
+          span {
+            visibility: visible;
+            width: 100px;
+            padding: 10px 20px;
+            margin: 10px;
+          }
+
+          span.active {
+            color: $Primary-D;
+          }
+        }
+
+        .bookmark.active {
+          background-color: hsla(176, 50%, 47%, 0.192);
+          transition: background-color 0.7s ease;
+        }
+      }
+    }
+
+    .project {
+      .card {
+        &-header {
+          display: flex;
+
+          .title-desc {
+            margin-left: auto;
+          }
+        }
+
+        &-footer {
+          display: flex;
+
+          button {
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .modal {
+    .plan {
+      .card {
+        &-header {
+          .title {
+            display: flex;
+            margin: 0;
+
+            .price-desc {
+              margin: 0 15px;
+            }
+
+            &-total {
+              display: flex;
+            }
+          }
+        }
+
+        &-desc {
+          padding: 10px 0 10px 45px;
+        }
+
+        &-total {
+          display: none;
+        }
+
+        &-cta {
+          display: flex;
+          transition: visibility 0.5s ease, height 0.5s ease, width 0.5s ease;
+
+          .label {
+            margin-top: 25px;
+            height: 60px;
+            display: inline-block;
+          }
+
+          .cta {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+
+            div {
+              padding: 5px 10px;
+              height: 50px;
+              margin: 0 10px;
+
+              input {
+                height: 20px;
+                margin: 7px 0 4px 10px;
+                width: 3rem;
+              }
+            }
+
+            button {
+              height: 50px;
+              margin: 0 0 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

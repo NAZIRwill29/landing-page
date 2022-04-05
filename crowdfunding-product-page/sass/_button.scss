@@ -1,0 +1,12 @@
+button {
+  background-color: $Primary-M;
+  color: white;
+  border-radius: 2rem;
+  border: 0;
+  padding: 15px 30px;
+  max-width: 150px;
+}
+
+button:hover {
+  background-color: $Primary-D;
+}
