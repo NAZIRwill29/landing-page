@@ -1,6 +1,6 @@
 # Frontend Mentor - Crowdfunding product page challenge solution
 
-This is a solution to the [Crowdfunding product page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-sass-SJ6JwLBm5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Crowdfunding product page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-for-crowdfunding-with-sass-rkum0UK7q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
 
 ### Screenshot
 
-![Screenshot Crowdfunding product page](./screenshot/screenshot.png)
+![Screenshot Crowdfunding product page](./screenshots/screenshot.png)
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/sunnyside-agency-landing-page)
-- Live Site URL: [Crowdfunding product page challenge - Netlify](https://landing-page-mdnazir.netlify.app/sunnyside-agency-landing-page/index.html)
+- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/crowdfunding-product-page)
+- Live Site URL: [Crowdfunding product page challenge - Netlify](https://landing-page-mdnazir.netlify.app/crowdfunding-product-page/index.html)
 
 ## My process
 
