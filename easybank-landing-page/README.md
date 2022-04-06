@@ -19,7 +19,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/sunnyside-agency-landing-page)
+- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/easybank-landing-page)
 - Live Site URL: [Easybank landing page challenge - Netlify](https://landing-page-mdnazir.netlify.app/sunnyside-agency-landing-page/index.html)
 
 ## My process
