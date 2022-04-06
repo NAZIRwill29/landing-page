@@ -14,12 +14,17 @@ function bookmark(x) {
 
 //start modal
 function modal(x) {
-    document.querySelector(".modal").classList.add("active");
+    let modal = document.querySelector(".modal");
+    modal.classList.add("active");
+    //disable background scrolling 
+    document.body.style.overflow = 'hidden';
 }
 
 //close modal
 function closeModal() {
     document.querySelector(".modal").classList.remove("active");
+    //enable background scrolling 
+    document.body.style.overflow = 'visible';
 }
 
 let radios = document.querySelectorAll(".radio");
