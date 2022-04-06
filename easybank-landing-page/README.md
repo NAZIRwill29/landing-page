@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page challenge solution
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-sass-SJ6JwLBm5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-SJlNC357c). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 ### Links
 
 - Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/easybank-landing-page)
-- Live Site URL: [Easybank landing page challenge - Netlify](https://landing-page-mdnazir.netlify.app/sunnyside-agency-landing-page/index.html)
+- Live Site URL: [Easybank landing page challenge - Netlify](https://landing-page-mdnazir.netlify.app/easybank-landing-page/index.html)
 
 ## My process
 
