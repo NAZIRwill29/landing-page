@@ -1,0 +1,13 @@
+button {
+  background-color: $Pink;
+  color: $Primary;
+  border-radius: 2rem;
+  border: 0;
+  padding: 10px 40px;
+  margin: 10px 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: $LighPink;
+}

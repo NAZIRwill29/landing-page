@@ -1,0 +1,232 @@
+@import "config";
+@import "button";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $Primary;
+  font-family: $font-stack2;
+  line-height: 1.6;
+  font-size: 16px;
+  color: $Secondary;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0;
+  font-family: $font-stack1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+//header section
+header {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  //   position: fixed;
+  //   top: 0;
+  //   right: 0;
+  //   z-index: 3;
+  //   width: 100%;
+  background-color: $Primary;
+  img {
+    width: 14vw;
+    height: 3.5vw;
+    min-width: 40px;
+    min-height: 15px;
+    max-width: 140px;
+    max-height: 30px;
+    cursor: pointer;
+  }
+  button {
+    color: $Pink;
+    background-color: $Primary;
+    border: 1.5px solid $Pink;
+    padding: 5px 10px;
+    margin-left: auto;
+    box-shadow: 0.5px 1px 8px rgba(0, 0, 0, 0.3);
+  }
+  button:hover {
+    background-color: $Primary;
+    border: 1.5px solid $LighPink;
+    color: $LighPink;
+  }
+}
+
+section {
+  padding: 40px;
+}
+
+//headline section
+.headline {
+  //   margin-top: 150px;
+  text-align: center;
+}
+
+//proof section
+.proof {
+  &-desc {
+    display: flex;
+    flex-direction: column;
+    div {
+      margin: 10px 5%;
+      text-align: center;
+      padding: 20px 0;
+      img {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        right: 70px;
+      }
+      p {
+        font-size: 3.5rem;
+        font-family: $font-stack1;
+        font-weight: bold;
+        margin: 0;
+      }
+      span {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+//grid
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 40px 60px;
+  &-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    h2 {
+      font-size: 18px;
+    }
+  }
+  &-img {
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+    grid-row: 1;
+  }
+}
+
+.growBefore {
+  background-image: url(../images/bg-section-top-mobile-1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 29vw;
+}
+
+//grow section
+.grow {
+  background-color: $lightBlue;
+  &-img {
+    background-image: url(../images/illustration-grow-together.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.growAfter {
+  background-image: url(../images/bg-section-bottom-mobile-1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 14vw;
+}
+
+//flow section
+.flow {
+  &-img {
+    background-image: url(../images/illustration-flowing-conversation.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.userBefore {
+  background-image: url(../images/bg-section-top-mobile-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 29vw;
+}
+
+//user section
+.user {
+  background-color: $lightBlue;
+  &-img {
+    background-image: url(../images/illustration-your-users.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.userAfter {
+  background-image: url(../images/bg-section-bottom-mobile-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 14vw;
+}
+
+//cta section
+.cta {
+  text-align: center;
+  h2 {
+    font-size: 20px;
+    font-family: $font-stack1;
+    text-align: center;
+  }
+}
+
+@import "footer";
+
+@import "desktop";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
