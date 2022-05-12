@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections challenge solution
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-intro-component-with-signup-form-IkHEh_1as). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-curved-section-HJyMMtqI9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ### Screenshot
 
-![Screenshot Huddle landing page with curved sections](./screenshots/screenshot.JPG)
+![Screenshot Huddle landing page with curved sections](./screenshots/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/NAZIRwill29/intro-component-with-signup-form)
-- Live Site URL: [Huddle landing page with curved sections - Netlify](https://intro-component-with-signup-form-mdnazir.netlify.app/)
+- Solution URL: [Repository](https://github.com/NAZIRwill29/landing-page/tree/main/huddle-landing-page-with-curved-sections)
+- Live Site URL: [Huddle landing page with curved sections - Netlify](https://landing-page-mdnazir.netlify.app/huddle-landing-page-with-curved-sections/index.html)
 
 ## My process
 
