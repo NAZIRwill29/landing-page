@@ -81,17 +81,22 @@ header {
 }
 
 section {
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 //headline section
 .headline {
   //   margin-top: 150px;
   text-align: center;
+  padding: 40px;
 }
 
 //proof section
 .proof {
+  text-align: center;
+  #mockup {
+    width: 80%;
+  }
   &-desc {
     display: flex;
     flex-direction: column;
@@ -133,8 +138,8 @@ section {
     }
   }
   &-img {
-    width: 70vw;
-    height: 70vw;
+    width: 50vw;
+    height: 50vw;
     margin: auto;
     grid-row: 1;
   }
@@ -210,6 +215,7 @@ section {
 
 //cta section
 .cta {
+  padding-bottom: 40px;
   text-align: center;
   h2 {
     font-size: 20px;

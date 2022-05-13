@@ -90,11 +90,20 @@ header button:hover {
 }
 
 section {
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 .headline {
   text-align: center;
+  padding: 40px;
+}
+
+.proof {
+  text-align: center;
+}
+
+.proof #mockup {
+  width: 80%;
 }
 
 .proof-desc {
@@ -144,8 +153,8 @@ section {
 }
 
 .grid-img {
-  width: 70vw;
-  height: 70vw;
+  width: 50vw;
+  height: 50vw;
   margin: auto;
   grid-row: 1;
 }
@@ -216,6 +225,7 @@ section {
 }
 
 .cta {
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -330,6 +340,7 @@ footer section .desc-social i:hover {
   }
   main button {
     font-size: 20px;
+    padding: 20px 60px;
   }
   header {
     padding: 40px 60px;
@@ -338,6 +349,9 @@ footer section .desc-social i:hover {
     padding: 10px 20px;
   }
   section {
+    padding: 20px 60px;
+  }
+  .headline {
     padding: 40px 60px;
   }
   .headline p {
@@ -386,6 +400,9 @@ footer section .desc-social i:hover {
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
     height: 14vw;
   }
+  .cta {
+    padding-bottom: 40px;
+  }
   .cta h2 {
     font-size: 2.5rem;
   }
@@ -420,6 +437,16 @@ footer section .desc-social i:hover {
   button {
     font-size: 18px;
   }
+  main button {
+    font-size: 20px;
+    padding: 20px 60px;
+  }
+  section {
+    padding: 30px 60px;
+  }
+  .headline {
+    padding: 60px 60px 40px;
+  }
   .headline p {
     margin: 10px 25%;
   }
@@ -431,6 +458,13 @@ footer section .desc-social i:hover {
   }
   .proof-desc div p {
     font-size: 4.5rem;
+  }
+  .grid-img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .cta {
+    padding-bottom: 40px;
   }
   footer section .newsletter span {
     font-size: 30px;
